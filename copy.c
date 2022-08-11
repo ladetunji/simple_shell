@@ -15,9 +15,7 @@ char *_strcpy(char *dest, const char *src)
 	char *copy = dest;
 
 	if (dest == NULL)
-	{
-		return NULL;
-	}
+		return (NULL);
 	while (*src !== NULL)
 	{
 		*dest = *src;
