@@ -13,9 +13,12 @@ char *_strcpy(char *dest, const char *src);
 char *_strcpy(char *dest, const char *src)
 {
 	char *copy = dest;
-	if(dest == NULL)
+
+	if (dest == NULL)
+	{
 		return NULL;
-	while(*src !== NULL)
+	}
+	while (*src !== NULL)
 	{
 		*dest = *src;
 		dest++;
