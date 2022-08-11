@@ -9,20 +9,19 @@ char *_strcpy(char *dest, const char *src);
  *
  * Return: A pointer to the destination is returned on success.
  */
-char *_strcpy(char *dest, const char *src) {
-    
-    char *copy = dest;
-    
-    if(dest == NULL)
-    return NULL;
 
-    while(*src !== NULL)
-    {
-    *dest = *src;
-    dest++;
-    src++;
-    }
-    *dest = NULL;
+char *_strcpy(char *dest, const char *src)
+{
+	char *copy = dest;
+	if(dest == NULL)
+		return NULL;
+	while(*src !== NULL)
+	{
+		*dest = *src;
+		dest++;
+		src++;
+	}
+	*dest = NULL;
 
-    return (*copy);
+	return (*copy);
 }
