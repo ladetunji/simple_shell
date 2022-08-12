@@ -3,8 +3,9 @@
 /**
  * dequote - dequote a string
  * @str: the string to dequote
+ *
  * Return: If memory allocation fails, return NULL.
- * Otherwise return a dequoted copy of str.
+ *         Otherwise return a dequoted copy of str.
  */
 
 char *dequote(const char *str)
@@ -55,6 +56,7 @@ char *dequote(const char *str)
 /**
  * dequote_len - compute the length of a string after dequoting
  * @str: the string to evaluate
+ *
  * Return: Return the length of str after dequoting
  */
 

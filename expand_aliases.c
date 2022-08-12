@@ -42,7 +42,7 @@ void expand_aliases(alias_t *aliases, char ***tokptr)
  * @tokptr: pointer to the current tokens
  *
  * Return: If expansion succeeds, return a pointer the alias name.
- * Otherwise, return NULL.
+ *         Otherwise, return NULL.
  */
 
 char *expand_alias(alias_t *aliases, char ***tokptr)

@@ -6,8 +6,9 @@
  * @old: pointer to the buffer
  * @old_size: current size of the buffer
  * @new_size: desired size of the buffer
+ *
  * Return: If memory allocation fails, return NULL.
- * Otherwise, return a pointer to the new buffer.
+ *         Otherwise, return a pointer to the new buffer.
  */
 
 static void *_realloc(void *old, size_t old_size, size_t new_size)
@@ -39,8 +40,9 @@ static void *_realloc(void *old, size_t old_size, size_t new_size)
  * @line: address of a pointer to the line
  * @size: address of a pointer to the line size
  * @n: number of characters to copy from the buffer
+ *
  * Return: If memory allocation fails, return NULL.
- * Otherwise, return a pointer to the line of input.
+ *         Otherwise, return a pointer to the line of input.
  */
 
 static char *_getline_next(buf_t *buf, char **line, size_t *size, size_t n)
@@ -78,6 +80,7 @@ static char *_getline_next(buf_t *buf, char **line, size_t *size, size_t n)
  * _getline_buf - create, get, and delete buffers
  * @table: buffers indexed by file descriptor
  * @fd: file descriptor
+ *
  * Return: NULL or a pointer to the buffer associated with fd
  */
 
@@ -124,8 +127,9 @@ static buf_t *_getline_buf(buf_table_t *table, const int fd)
 /**
  * _getline - read a line of input
  * @fd: file descriptor from which to read
+ *
  * Return: If an error occurs or there are no more lines, return NULL.
- * Otherwise, return the next line of input.
+ *         Otherwise, return the next line of input.
  */
 
 char *_getline(const int fd)

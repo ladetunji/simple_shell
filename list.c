@@ -4,6 +4,7 @@
  * str_to_list - turn a string into a linked list
  * @str: string passed
  * @delim: delimiter passed
+ *
  * Return: pointer to list
  */
 
@@ -59,6 +60,7 @@ list_t *_str_to_list(list_t **tailptr, const char *str, char delim)
  * add_node - insert a string at the beginning of the list
  * @headptr: a pointer to the address of the first list node
  * @str: the string to add to the list
+ *
  * Return: If memory allocation fails, return NULL. Otherwise, return the
  * address of the new no
  */
@@ -87,6 +89,7 @@ list_t *add_node(list_t **headptr, const char *str)
  * add_node_end - add a string at the end of the list
  * @headptr: a pointer to the address of the first list node
  * @str: the string to add to the list
+ *
  * Return: If memory allocation fails, return NULL. Otherwise, return the
  * address of the new no
  */

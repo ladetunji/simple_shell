@@ -8,7 +8,7 @@ char **_getenviron(const char *var);
  * _copyenviron - Makes a copy of the environment.
  * 
  * Return: If an error occurs - NULL, 
- *         else, a double pointer to the copy.
+ *         Otherwise, a double pointer to the copy.
  */
  char **_copyenviron(void){
     char **new_env;
@@ -59,7 +59,7 @@ char **_getenviron(const char *var);
   * @var: The name of the environment variable to fetch.
   * 
   * Return: If the environment variable does not exist - NULL.
-  *         Else - a pointer to the environment variable.
+  *         Otherwise - a pointer to the environment variable.
   */
   char **_getenv(const char *var)
   {

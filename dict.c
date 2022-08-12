@@ -47,6 +47,7 @@ dict_t *get_dict_node(dict_t *head, const char *key)
   * @headptr: pointer to dict
   * @key: entry key
   * @val: entry val
+  *
   * Return: pointer to list
   */
 

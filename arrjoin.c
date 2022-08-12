@@ -1,7 +1,7 @@
 #include "tokens.h"
 
 /**
- * arrjoin - join two arrays
+ * arrjoin - join two arrays.
  * @arr1: the first array
  * @arr2: the second array
  *

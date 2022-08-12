@@ -16,6 +16,7 @@ cmdtree_t *cmd_to_tree(const char * const *tokens __attribute__((unused)))
 /**
  * free_cmdtree - free a binary tree and and set root to NULL
  * @rootptr: pointer
+ *
  * Return: NULL
  */
 

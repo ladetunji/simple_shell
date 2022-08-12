@@ -3,6 +3,7 @@
 /**
  * atou - convert a string to an integer
  * @s: character to check
+ *
  * Return: int
  */
 

@@ -3,7 +3,7 @@
 /**
  * expand_vars - perform variable expansion on the current set of tokens
  * @info: shell information
-  * @tokptr: pointer to the current tokens
+ * @tokptr: pointer to the current tokens
  */
 
 void expand_vars(info_t *info, char ***tokptr)

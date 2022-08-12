@@ -42,6 +42,7 @@ cmdlist_t *add_cmd_end(cmdlist_t **headptr, const char *cmd)
  * del_cmd - remove a command from a command list
  * @headptr: the first node
  * @index: argument passed
+ *
  * Return: address of deleted node
  */
 
@@ -67,6 +68,7 @@ cmdlist_t *del_cmd(cmdlist_t **headptr, size_t index)
 /**
  * pop_cmd - remove a node and retrieve it's tokens
  * @headptr: the first node
+ *
  * Return: command tokens
  */
 

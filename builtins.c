@@ -2,6 +2,7 @@
 
 /**
  * get_builtins - get the builtins
+ *
  * Return: pointer to a NULL-terminated statically-allocated array of builtins
  */
 
@@ -25,6 +26,7 @@ const builtin_t *get_builtins(void)
 /**
  * get_builtin - get a builtin by name
  * @name: the name of the builtin to retrieve
+ *
  * Return: NULL if no match is found, otherwise a pointer to the builtin
  */
 

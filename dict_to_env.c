@@ -3,6 +3,7 @@
 /**
   * dict_to_env - creates linked list from environment
   * @head: argument passed
+  *
   * Return: pointer to list
   */
 
