@@ -3,8 +3,9 @@
 char **environ;
 
 /**
- * main - Tokenizes and splits strings
- * Return: 
+ * main - Tokenizes and splits strings.
+ * @buffer: The strings to be split.
+ * Return: An array of tokenised strings.
  */
 
 int split(char *buffer)

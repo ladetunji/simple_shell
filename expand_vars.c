@@ -27,7 +27,7 @@ void expand_vars(info_t *info, char ***tokptr)
 /**
  * _expand_vars - perform variable expansion on a token
  * @info: shell information
-  * @tokptr: pointer to the current tokens
+ * @tokptr: pointer to the current tokens
  *
  * Return: the expanded token
  */
